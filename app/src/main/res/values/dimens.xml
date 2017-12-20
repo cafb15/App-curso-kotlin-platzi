@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- size dp -->
+    <dimen name="size_230dp">230dp</dimen>
+    <dimen name="size_100dp">100dp</dimen>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_5dp">5dp</dimen>
+
+    <!-- size sp -->
+    <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_20sp">20sp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
+</resources>
