@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         //without Android Extensions
 //        val text: TextView = findViewById(R.id.id)
+        setSupportActionBar(t_list)
 
         //with Android Extensions
         recycler_landing.layoutManager = GridLayoutManager(this@MainActivity, 2)
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         val adapterPOJO = adaptadorCarrito(items)
         val adapter = LandingAdapter(itemsShop)
-        recycler_landing.adapter = adapterPOJO
+        recycler_landing.adapter = adapter
 
 //        id.setOnClickListener {
 //            startActivity<DetailActivity>("text" to "Hello from Anko")

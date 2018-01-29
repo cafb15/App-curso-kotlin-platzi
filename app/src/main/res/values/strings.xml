@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">PlatziStore</string>
     <string name="text">Este es un link http://google.com</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a varius tellus. In enim nisi, viverra eget diam et,
+        eleifend efficitur mi. Donec lacinia lectus non metus hendrerit ornare. Praesent convallis justo ac tellus bibendum commodo.
+        Pellentesque augue nibh, condimentum eu orci sed, suscipit porta lacus. Nulla placerat mi et fringilla tincidunt.
+        Fusce vitae porta mauris. Proin fringilla purus volutpat risus consequat porta. Morbi turpis nulla, tempor at vestibulum et, consequat sed
+        lectus. Ut nec viverra mauris, in feugiat velit.</string>
 </resources>
