@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     tools:context="com.example.user.platzistore.MainActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -37,7 +36,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_landing"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:behavior_overlapTop="@dimen/size_30dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 </android.support.design.widget.CoordinatorLayout>

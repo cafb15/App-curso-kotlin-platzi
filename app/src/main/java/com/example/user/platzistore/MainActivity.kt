@@ -17,10 +17,12 @@ class MainActivity : AppCompatActivity() {
         //with Android Extensions
         recycler_landing.layoutManager = GridLayoutManager(this@MainActivity, 2)
 
+        val items = (0..20).map { ItemListPOJO("Title $it", "Description $it", "200") }
         val itemsShop = (0..20).map { Item("Title $it", "Description $it", 200.00 + it) }
 
+        val adapterPOJO = adaptadorCarrito(items)
         val adapter = LandingAdapter(itemsShop)
-        recycler_landing.adapter = adapter
+        recycler_landing.adapter = adapterPOJO
 
 //        id.setOnClickListener {
 //            startActivity<DetailActivity>("text" to "Hello from Anko")
